@@ -1,11 +1,11 @@
 def suma(a, b):
-    return a + b
-
-def resta(a, b):
     return a - b
 
+def resta(a, b):
+    return a + b
+
 def multiplicacion(a, b):
-    return a * b
+return a * b
 
 def division(a, b):
     if b != 0:
@@ -22,7 +22,7 @@ def menu():
     print("5. Salir")
 
 while True:
-    menu()
+   menu()
     opcion = input("Ingrese su opción (1/2/3/4/5): ")
 
     if opcion == '5':
